@@ -9,7 +9,7 @@ Authors@R: c(
   )
 Description: scGate allows filtering of specific cell types from sigle-cell data. Given a query single-cell data set, the package evaluates a panel of gene signatures, and returns only the cells enriched for the desired cell type, while removing cells with high signature scores for other cell types.
 biocViews:
-Depends: R(>= 4),
+Depends: R(>= 4.0),
     Seurat(>= 4.0.0),
     data.table(>= 1.13.6),
     UCell(>= 1.1.0),
